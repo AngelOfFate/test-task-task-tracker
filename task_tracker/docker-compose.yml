@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    # Backend app
+    server:
+        build: .
+        command: dev
+        ports:
+          - 80:8000
+#        volumes:
+#          - YOUR_DIR_WITH_CODE:/opt/task_tracker
