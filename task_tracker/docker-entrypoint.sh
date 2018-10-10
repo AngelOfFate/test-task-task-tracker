@@ -47,6 +47,9 @@ case "$1" in
     manage)
         python manage.py "${@:2}"
     ;;
+    test)
+        python manage.py tests
+    ;;
     *)
         show_help
     ;;
