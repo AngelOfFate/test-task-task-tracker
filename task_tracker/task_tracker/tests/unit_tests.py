@@ -1,5 +1,5 @@
 from django.test import TestCase
-from task_tracker.models import *
+from task_tracker.models import Project, Status, Description, Comment, Task
 
 
 class ProjectModelTest(TestCase):

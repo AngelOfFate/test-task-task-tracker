@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import *
+from task_tracker.models import Project, Status, Description, Comment, Task
 
 
 @admin.register(Project)

@@ -1,7 +1,7 @@
 from rest_framework.test import APITestCase
 from rest_framework import status
 from django.test import TestCase
-from task_tracker.models import *
+from task_tracker.models import Project, Status, Description, Comment, Task
 from django.contrib.auth.models import User
 import json
 

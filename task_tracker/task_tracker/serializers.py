@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
-from task_tracker.models import *
+from task_tracker.models import Project, Status, Description, Comment, Task
 from django.core.exceptions import *
 
 
